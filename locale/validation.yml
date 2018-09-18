@@ -74,6 +74,9 @@ validation:
     username: username
     password: password
     email: email
+    phone: phone
+    phone_number: phone number
+    verification_code: verification code
     title: title
     content: content
     name_singular: singular name
