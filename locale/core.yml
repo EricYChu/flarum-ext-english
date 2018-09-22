@@ -855,3 +855,12 @@ core:
     mod: Mod
     mods: Mods
 
+  link:
+    home: Home
+    presales: Presales
+    features: Features
+    team: Team
+    faq: FAQ
+    whitepaper: Whitepaper
+    blog: Blog
+    community: Community
