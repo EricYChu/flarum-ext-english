@@ -47,6 +47,9 @@ core:
       submit_button: => core.ref.save_changes
       welcome_banner_heading: Welcome Banner
       welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      google_recaptcha_heading: Google reCAPTCHA
+      google_recaptcha_site_key_placeholder: Google reCAPTCHA Site Key
+      google_recaptcha_secret_key_placeholder: Google reCAPTCHA Secret Key
 
     # These translations are used in the Dashboard page.
     dashboard:
@@ -105,9 +108,16 @@ core:
       heading: => core.ref.sms
       text: Configure the SMS settings your forum will use to send sms.
       driver_label: Driver
+      sender_name_label: Sender Name
       twilio_heading: Twilio
-      twilio_verification_api_key: Verification API Key
+      twilio_verification_api_key_label: Verification API Key
       submit_button: => core.ref.save_changes
+      paasoo_heading: PaaSoo
+      paasoo_api_key_label: API Key
+      paasoo_api_secret_label: API Secret
+      paasoo_sender_number_label: Sender Number
+      paasoo_cn_message_template_label: China Message Template
+      message_template: "[{sender}] Your verification code is {code}, please use it in {minutes} minutes."
 
     # These translations are used in the Extensions page.
     extensions:
@@ -750,6 +760,7 @@ core:
     failed_send_verification_code_message: "Failed to send verification code, please try again."
     invalid_verification_code_message: This verification code is invalid.
     phone_not_verified_message: This phone is not verified.
+    invalid_recaptcha_response_message: This reCAPTCHA is invalid.
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
