@@ -84,6 +84,32 @@ flarum-tags:
     services: Services
     stage: Stage
     drama: Drama
+    comics: Comics
+    light-novel: 'Light novel'
+    film: Film
+    photography: Photography
+    documentary: Documentary
+    adaptation: Adaptation
+    character: Character
+    cosplay: Cosplay
+    doujin: Doujin
+    end: End
+    fashion: Fashion
+    knowledge: Knowledge
+    merchandise: Merchandise
+    origianl: Original
+    ost: OST
+    promotion: Promotion
+    recommendation: Recommendation
+    recruitment: Recruitment
+    reproduction: Re-production
+    reviews: Reviews
+    scenario: Scenario
+    serial: Serial
+    short-story: 'Short story'
+    technical: Technical
+    tickets: Tickets
+    trade: Trade
   tag_description:
     support: 'Get support and help when using and setting up ACGN services.'
     feedback: 'For discussing features and design of ACGN services. For issues use Support.'

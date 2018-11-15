@@ -82,7 +82,7 @@ core:
       username_label: '=> core.ref.username'
     sms:
       heading: '=> core.ref.sms'
-      text: 'Configure the SMS settings your forum will use to send sms.'
+      text: 'Configure the SMS settings which your forum will use to send sms.'
       driver_label: Driver
       sender_name_label: 'Sender Name'
       twilio_heading: Twilio
@@ -101,7 +101,7 @@ core:
     header:
       log_out_button: '=> core.ref.log_out'
     loading:
-      title: 'Please Wait...'
+      title: 'Please wait...'
     nav:
       appearance_button: Appearance
       appearance_text: 'Customize your forum''s colors, logos, and other variables.'
@@ -168,6 +168,7 @@ core:
       submit_button: '=> core.ref.save_changes'
       verify_button: '=> core.ref.verify'
       title: '=> core.ref.change_phone'
+      confirm_title: 'Confirm Current Phone'
     change_password:
       confirmation_message: 'Your password has been changed successfully.'
       submit_button: '=> core.ref.save_changes'
@@ -281,6 +282,8 @@ core:
       edited_text: Edited
       edited_tooltip: '{username} edited {ago}'
       number_tooltip: 'Post #{number}'
+      translate_link: Translate
+      original_link: Original
     post_controls:
       delete_button: '=> core.ref.delete'
       delete_forever_button: '=> core.ref.delete_forever'
@@ -298,7 +301,7 @@ core:
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} later'
     rename_discussion:
-      title: 'Rename Discussion'
+      title: 'Rename discussion title'
       submit_button: '=> core.ref.rename'
     search:
       all_discussions_button: 'Search all discussions for "{query}"'
@@ -367,8 +370,12 @@ core:
     phone_verification:
       phone_number_placeholder: '=> core.ref.phone_number'
       verification_code_placeholder: '=> core.ref.verification_code'
-      verification_text: 'For your security, we wants to make sure it’s really you. We will send a text message with a 6-digit verification code.'
-      verification_message_sent_message: 'The Verification message has send to {phone}.'
+      verification_text: 'For your security, we want to make sure it’s really you. We will send a text message with a 6-digit verification code.'
+      verification_message_sent_message: 'The Verification message has been sent to {phone}.'
+      next_button: Next
+      send_button: 'Send Code'
+      confirm_phone_title: 'Confirm Your Phone'
+      send_error_message: 'An error was encountered while trying to send code to your phone.'
     countries:
       af: Afghanistan
       al: Albania
